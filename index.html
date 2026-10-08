@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domainik.ru — Услуги по продаже бизнеса, сайтов и доменов | Эскроу-сопровождение</title>
+    <meta name="description" content="Domainik — сервис сопровождения сделок с готовым бизнесом, сайтами и доменами. Эскроу, AI-оценка, защита от патентных троллей, восстановление сайтов. Актуальные лоты — в Telegram-боте." />
+    <meta name="keywords" content="продажа бизнеса, продажа сайтов, домены, эскроу, патентные тролли, оценка сайта, услуги сопровождения сделок" />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Domainik.ru — Услуги по продаже бизнеса, сайтов и доменов" />
+    <meta property="og:description" content="Сервис сопровождения сделок с цифровыми активами. Эскроу, AI-оценка, юридическая защита. Лоты — в Telegram-боте." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://domainik.ru" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:site_name" content="Domainik" />
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Domainik.ru — Сервис сопровождения сделок с цифровыми активами" />
+    <meta name="twitter:description" content="Безопасное сопровождение сделок с бизнесом, сайтами и доменами через эскроу." />
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://domainik.ru" />
+    
+    <!-- Sitemap -->
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>◈</text></svg>" />
+    
+    <!-- Google Fonts: Playfair Display + Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    
+    <!-- Schema.org Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Domainik",
+      "url": "https://domainik.ru",
+      "email": "entrance@domaink.ru",
+      "description": "Сервис сопровождения сделок с готовым бизнесом, сайтами и доменами",
+      "foundingDate": "2024",
+      "areaServed": "RU",
+      "serviceType": [
+        "Сопровождение продажи бизнеса",
+        "Сопровождение продажи сайтов",
+        "Сопровождение продажи доменов",
+        "Эскроу-сделки",
+        "Защита от патентных троллей",
+        "Восстановление сайтов"
+      ]
+    }
+    </script>
+    
+    <!-- Inline Critical CSS -->
+    <style>
+      /* CSS Variables */
+      :root {
+        --color-bg-primary: #0f0f0f;
+        --color-bg-secondary: #1a1a1a;
+        --color-bg-card: #141414;
+        --color-bg-hover: #1f1f1f;
+        --color-text-primary: #e8e8e8;
+        --color-text-secondary: #a0a0a0;
+        --color-text-muted: #666666;
+        --color-text-inverse: #0f0f0f;
+        --color-accent: #D4AF37;
+        --color-accent-hover: #e6c54b;
+        --color-accent-border: rgba(212, 175, 55, 0.3);
+        --color-accent-muted: rgba(212, 175, 55, 0.1);
+        --color-border: rgba(255, 255, 255, 0.1);
+        --color-success: #4ade80;
+        --color-error: #f87171;
+        --font-heading: 'Playfair Display', Georgia, serif;
+        --font-body: 'Raleway', -apple-system, BlinkMacSystemFont, sans-serif;
+        --radius-sm: 4px;
+        --radius-md: 8px;
+        --radius-lg: 12px;
+        --shadow-gold: 0 0 20px rgba(212, 175, 55, 0.3);
+      }
+      
+      /* Reset */
+      *, *::before, *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      
+      html {
+        font-size: 16px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      body {
+        font-family: var(--font-body);
+        background: var(--color-bg-primary);
+        color: var(--color-text-primary);
+        line-height: 1.6;
+        overflow-x: hidden;
+      }
+      
+      /* Container */
+      .container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 2rem;
+      }
+      
+      /* Typography */
+      h1, h2, h3, h4, h5, h6 {
+        font-family: var(--font-heading);
+        font-weight: 600;
+        line-height: 1.2;
+      }
+      
+      h1 {
+        font-size: clamp(2.5rem, 6vw, 5rem);
+        font-style: italic;
+        font-weight: 700;
+        line-height: 0.95;
+      }
+      
+      h2 {
+        font-size: clamp(2rem, 4vw, 3rem);
+        font-style: italic;
+      }
+      
+      h3 {
+        font-size: 1.5rem;
+      }
+      
+      p {
+        margin-bottom: 1rem;
+      }
+      
+      a {
+        color: inherit;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+      
+      a:hover {
+        color: var(--color-accent);
+      }
+      
+      /* Gold line accent */
+      .gold-line {
+        width: 60px;
+        height: 2px;
+        background: var(--color-accent);
+        margin-bottom: 2rem;
+      }
+      
+      /* Section */
+      .section {
+        padding: 6rem 0;
+      }
+      
+      /* Header */
+      header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        background: rgba(15, 15, 15, 0.9);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid var(--color-border);
+      }
+      
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+      }
+      
+      .logo {
+        font-family: var(--font-heading);
+        font-size: 1.5rem;
+        font-style: italic;
+        font-weight: 600;
+        color: var(--color-accent);
+        letter-spacing: 0.05em;
+      }
+      
+      .nav-links {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+      }
+      
+      .nav-links a {
+        font-size: 0.75rem;
+        font-weight: 500;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var(--color-text-secondary);
+      }
+      
+      .nav-links a:hover {
+        color: var(--color-accent);
+      }
+      
+      /* Hero */
+      .hero {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        background: var(--color-bg-primary);
+      }
+      
+      .hero::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: 
+          radial-gradient(ellipse at 75% 40%, rgba(212, 175, 55, 0.12) 0%, transparent 50%),
+          radial-gradient(ellipse at 25% 70%, rgba(212, 175, 55, 0.06) 0%, transparent 40%),
+          linear-gradient(135deg, #0f0f0f 0%, #141414 50%, #0f0f0f 100%);
+        opacity: 1;
+      }
+      
+      .hero-content {
+        position: relative;
+        z-index: 10;
+        max-width: 64rem;
+        padding: 8rem 0;
+      }
+      
+      .hero-subtitle {
+        font-size: 0.75rem;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: var(--color-accent);
+        margin-bottom: 2rem;
+      }
+      
+      .hero-title {
+        margin-bottom: 2rem;
+      }
+      
+      .hero-title span {
+        color: var(--color-accent);
+      }
+      
+      .hero-description {
+        font-size: 1.25rem;
+        max-width: 42rem;
+        margin-bottom: 3rem;
+        color: var(--color-text-secondary);
+        font-weight: 300;
+        line-height: 1.8;
+      }
+      
+      /* Buttons */
+      .btn {
+        display: inline-block;
+        padding: 1rem 2rem;
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        text-align: center;
+        transition: all 0.3s ease;
+        border-radius: var(--radius-sm);
+        cursor: pointer;
+      }
+      
+      .btn-primary {
+        background: var(--color-accent);
+        color: var(--color-text-inverse);
+      }
+      
+      .btn-primary:hover {
+        background: var(--color-accent-hover);
+        box-shadow: var(--shadow-gold);
+      }
+      
+      .btn-secondary {
+        background: transparent;
+        color: var(--color-accent);
+        border: 1px solid var(--color-accent-border);
+      }
+      
+      .btn-secondary:hover {
+        border-color: var(--color-accent);
+        background: var(--color-accent-muted);
+      }
+      
+      .btn-group {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+      
+      /* Services Grid */
+      .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1px;
+        background: var(--color-border);
+      }
+      
+      .service-card {
+        padding: 3rem;
+        background: var(--color-bg-primary);
+        transition: background 0.5s ease;
+      }
+      
+      .service-card:hover {
+        background: var(--color-bg-hover);
+      }
+      
+      .service-icon {
+        font-size: 1.5rem;
+        color: var(--color-accent);
+        margin-bottom: 1.5rem;
+      }
+      
+      .service-title {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+      }
+      
+      .service-description {
+        font-size: 0.875rem;
+        color: var(--color-text-secondary);
+        line-height: 1.7;
+      }
+      
+      /* Footer */
+      footer {
+        background: var(--color-bg-secondary);
+        border-top: 1px solid var(--color-border);
+        padding: 4rem 0;
+      }
+      
+      .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 3rem;
+        margin-bottom: 3rem;
+      }
+      
+      .footer-section h4 {
+        font-size: 0.75rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--color-accent);
+        margin-bottom: 1.5rem;
+      }
+      
+      .footer-section ul {
+        list-style: none;
+      }
+      
+      .footer-section li {
+        margin-bottom: 0.75rem;
+      }
+      
+      .footer-section a {
+        font-size: 0.875rem;
+        color: var(--color-text-secondary);
+      }
+      
+      .footer-bottom {
+        padding-top: 2rem;
+        border-top: 1px solid var(--color-border);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.75rem;
+        color: var(--color-text-muted);
+      }
+      
+      /* Responsive */
+      @media (max-width: 768px) {
+        .nav-links {
+          display: none;
+        }
+        
+        .hero-content {
+          padding: 6rem 0;
+        }
+        
+        .section {
+          padding: 4rem 0;
+        }
+        
+        .footer-bottom {
+          flex-direction: column;
+          gap: 1rem;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Pre-rendered HTML content (visible before React loads) -->
+    <div id="root">
+      <!-- Header -->
+      <header>
+        <nav class="container">
+          <a href="/" class="logo">domainik</a>
+          <ul class="nav-links">
+            <li><a href="/catalog">Лоты</a></li>
+            <li><a href="/calculator">Оценка</a></li>
+            <li><a href="/patent-protection">Защита от троллей</a></li>
+            <li><a href="/site-recovery">Восстановление</a></li>
+            <li><a href="/leads">Лиды</a></li>
+            <li><a href="/blog">Блог</a></li>
+            <li><a href="/contacts">Контакты</a></li>
+          </ul>
+          <a href="/calculator" class="btn btn-secondary">Оценить актив</a>
+        </nav>
+      </header>
+      
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <p class="hero-subtitle">Сервис сопровождения сделок — с 2024 года</p>
+            <h1 class="hero-title">
+              Продавайте.<br />
+              <span>Покупайте.</span><br />
+              Защищайте.
+            </h1>
+            <p class="hero-description">
+              Профессиональное сопровождение сделок с готовым бизнесом, сайтами с трафиком 
+              и премиум-доменами. Эскроу, AI-оценка, юридическая экспертиза 
+              и защита от патентных троллей. Актуальные лоты — в Telegram-боте.
+            </p>
+            <div class="btn-group">
+              <a href="https://t.me/domainik_bot" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                Лоты в Telegram
+              </a>
+              <a href="/calculator" class="btn btn-secondary">
+                Оценить актив бесплатно
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Services Section -->
+      <section class="section">
+        <div class="container">
+          <div style="max-width: 48rem; margin-bottom: 4rem;">
+            <div class="gold-line"></div>
+            <h2>
+              Шесть направлений —<br />
+              <span style="color: var(--color-text-muted);">одна экосистема</span>
+            </h2>
+            <p style="color: var(--color-text-secondary); max-width: 600px; margin-top: 1.5rem;">
+              От покупки готового бизнеса до защиты от патентных троллей. 
+              Полный цикл услуг для владельцев цифровых активов.
+            </p>
+          </div>
+          
+          <div class="services-grid">
+            <a href="https://t.me/domainik_bot" class="service-card" target="_blank" rel="noopener noreferrer">
+              <div class="service-icon">◆</div>
+              <h3 class="service-title">Продажа бизнеса</h3>
+              <p class="service-description">
+                Готовый бизнес с командой, процессами и клиентами. Полная due diligence и эскроу-сопровождение.
+              </p>
+            </a>
+            
+            <a href="https://t.me/domainik_bot" class="service-card" target="_blank" rel="noopener noreferrer">
+              <div class="service-icon">◇</div>
+              <h3 class="service-title">Продажа сайтов</h3>
+              <p class="service-description">
+                Сайты с трафиком и доходом. Проверенная монетизация и аналитика.
+              </p>
+            </a>
+            
+            <a href="https://t.me/domainik_bot" class="service-card" target="_blank" rel="noopener noreferrer">
+              <div class="service-icon">○</div>
+              <h3 class="service-title">Премиум-домены</h3>
+              <p class="service-description">
+                Короткие, запоминающиеся домены для брендов. .ru, .com, .io.
+              </p>
+            </a>
+            
+            <a href="/leads" class="service-card">
+              <div class="service-icon">△</div>
+              <h3 class="service-title">Лидогенерация</h3>
+              <p class="service-description">
+                Продажа лидов под ключ. Настройка воронок и трафика для вашего бизнеса.
+              </p>
+            </a>
+            
+            <a href="/site-recovery" class="service-card">
+              <div class="service-icon">□</div>
+              <h3 class="service-title">Восстановление сайтов</h3>
+              <p class="service-description">
+                Site Recovery: возврат после взломов, сбоев, неудачных миграций.
+              </p>
+            </a>
+            
+            <a href="/patent-protection" class="service-card">
+              <div class="service-icon">⬡</div>
+              <h3 class="service-title">Защита от троллей</h3>
+              <p class="service-description">
+                Юридическая защита от патентных троллей и жалоб на товарные знаки.
+              </p>
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Footer -->
+      <footer>
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-section">
+              <a href="/" class="logo" style="display: inline-block; margin-bottom: 1.5rem;">domainik</a>
+              <p style="font-size: 0.875rem; color: var(--color-text-secondary); line-height: 1.7;">
+                Сервис сопровождения сделок с бизнесом, сайтами и доменами. Безопасные эскроу-сделки и юридическая защита.
+              </p>
+            </div>
+            
+            <div class="footer-section">
+              <h4>Услуги</h4>
+              <ul>
+                <li><a href="/catalog">Лоты в Telegram</a></li>
+                <li><a href="/calculator">AI-оценка</a></li>
+                <li><a href="/patent-protection">Защита от троллей</a></li>
+                <li><a href="/site-recovery">Восстановление сайтов</a></li>
+                <li><a href="/leads">Лидогенерация</a></li>
+              </ul>
+            </div>
+            
+            <div class="footer-section">
+              <h4>Документы</h4>
+              <ul>
+                <li><a href="/legal/privacy">Политика конфиденциальности</a></li>
+                <li><a href="/legal/terms">Пользовательское соглашение</a></li>
+                <li><a href="/legal/offerta">Публичная оферта</a></li>
+                <li><a href="/legal/consent">Согласие на обработку ПД</a></li>
+              </ul>
+            </div>
+            
+            <div class="footer-section">
+              <h4>Контакты</h4>
+              <ul>
+                <li><a href="mailto:entrance@domaink.ru">entrance@domaink.ru</a></li>
+                <li><img src="/images/phone.svg" alt="Телефон для связи" style="height: 2rem;" /></li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="footer-bottom">
+            <p>© 2026 Domainik. Все права защищены.</p>
+            <p>Безопасные сделки через эскроу</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <!-- React App -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

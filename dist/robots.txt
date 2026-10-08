@@ -1,0 +1,53 @@
+# ============================================
+# DOMAINIK.RU — Robots.txt
+# Инструкции для поисковых ботов
+# ============================================
+
+# Разрешаем всем ботам индексировать сайт
+User-agent: *
+Allow: /
+
+# Запрещаем индексировать служебные директории
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /public/
+
+# Указываем карту сайта
+Sitemap: https://domainik.ru/sitemap.xml
+
+# Хост (для Яндекса)
+Host: domainik.ru
+
+# ============================================
+# Специальные инструкции для конкретных ботов
+# ============================================
+
+# Яндекс
+User-agent: Yandex
+Allow: /
+Disallow: /node_modules/
+Disallow: /src/
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term
+
+# Google
+User-agent: Googlebot
+Allow: /
+Disallow: /node_modules/
+Disallow: /src/
+
+# ============================================
+# Запрет индексации для всех остальных ботов
+# ============================================
+
+# Блокируем нежелательных ботов
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
